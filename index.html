@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Crop Advisory System</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-green-50 to-white text-gray-900 antialiased">
+
+  <!-- SOLID NAVBAR -->
+  <header class="sticky top-0 z-50 bg-white border-b shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-lg bg-green-600 flex items-center justify-center shadow-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 13.5V7.125A2.125 2.125 0 015.125 5h13.75A2.125 2.125 0 0121 7.125V16.5a2.125 2.125 0 01-2.125 2.125H6.125A3.375 3.375 0 013 15.25V13.5z" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="text-lg font-semibold">Smart Crop Advisory</h1>
+          <p class="text-xs text-gray-600">Decision support for small & marginal farmers</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm text-gray-700 font-medium">
+        <a class="hover:text-green-700" href="#features">Features</a>
+        <a class="hover:text-green-700" href="#how">How it works</a>
+        <a class="hover:text-green-700" href="#about">About</a>
+        <a class="hover:text-green-700" href="#contact">Contact</a>
+        <button class="ml-2 px-4 py-2 rounded-md bg-green-600 text-white text-sm hover:bg-green-700 shadow">
+          Get Started
+        </button>
+      </nav>
+
+      <div class="md:hidden flex items-center gap-3">
+        <select aria-label="Language" class="text-sm border rounded-md px-2 py-1">
+          <option>English</option>
+          <option>हिन्दी</option>
+          <option>বাংলা</option>
+          <option>తెలుగు</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+ <!-- HERO SECTION -->
+<main class="max-w-7xl mx-auto px-6">
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12">
+    <div>
+      <h2 class="text-3xl md:text-4xl font-extrabold leading-tight">
+        Smart, low-cost crop advice — built for small & marginal farmers
+      </h2>
+      <p class="mt-4 text-gray-700 text-lg">
+        A virtual decision-support platform using weather, soil and crop data to provide localized recommendations for crop selection, fertilizer application, irrigation and pest control.
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#get-started" class="px-5 py-3 rounded-md bg-green-600 text-white font-medium hover:bg-green-700 shadow">Get personalized advice</a>
+        <a href="#features" class="px-5 py-3 rounded-md border border-green-600 text-green-600 hover:bg-green-50">Explore features</a>
+      </div>
+    </div>
+
+    <!-- WORKING FARMER VIDEO
+    <div class="flex justify-center md:justify-end">
+      <video autoplay loop muted playsinline class="rounded-2xl shadow-lg w-full max-w-md">
+        <source src="https://videos.pexels.com/video-files/855330/855330-hd_1280_720_30fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+</main> -->
+
+
+      <!-- WORKING FARMER VIDEO -->
+      <div class="flex justify-center md:justify-end">
+        <video autoplay loop muted playsinline class="rounded-2xl shadow-lg w-full max-w-md">
+          <source src="https://videos.pexels.com/video-files/855330/855330-hd_1280_720_30fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="py-16">
+      <h3 class="text-3xl font-bold mb-8 text-center">What We Do</h3>
+      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-12">
+        We combine data analytics, weather forecasts, soil type databases and crop patterns to generate actionable, low-cost recommendations.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Localized crop choice</h4>
+          <p class="text-sm text-gray-600">Suggests crops suitable to your soil, season and local markets.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Fertilizer & nutrient plan</h4>
+          <p class="text-sm text-gray-600">Tailored application rates and timing to reduce cost and runoff.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Irrigation scheduling</h4>
+          <p class="text-sm text-gray-600">Plans using weather forecasts and soil moisture models.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Pest & disease alerts</h4>
+          <p class="text-sm text-gray-600">Early warnings and low-cost integrated pest management tips.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Offline-friendly</h4>
+          <p class="text-sm text-gray-600">Lightweight content that works on low-bandwidth connections.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+          <h4 class="font-semibold text-lg mb-2 text-green-700">Farm financials</h4>
+          <p class="text-sm text-gray-600">Simple profit/loss checks and resource optimization tips.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="py-10">
+      <h3 class="text-2xl font-bold">How it works</h3>
+      <ol class="mt-4 space-y-4 text-gray-700">
+        <li><strong>1. Collect basic inputs</strong> — location, plot size, soil type, and preferred crops.</li>
+        <li><strong>2. Model & analyse</strong> — combine yield, weather and soil data to recommend plans.</li>
+        <li><strong>3. Deliver</strong> — localized advice via web or mobile in local languages.</li>
+      </ol>
+    </section>
+
+    <!-- ABSTRACT SECTION -->
+    <section id="about" class="py-10">
+      <h3 class="text-2xl font-bold">Abstract</h3>
+      <div class="mt-4 text-gray-700 max-w-3xl bg-white p-6 rounded-lg shadow-sm">
+        <p>
+          The Smart Crop Advisory System for Small and Marginal Farmers is a virtual decision-support platform designed to enhance agricultural practices without the need for costly hardware. The system uses data analytics, weather reports, soil type information, and crop patterns to generate customized recommendations for crop selection, fertilizer application, irrigation planning, and pest control. By providing user-friendly access through web or mobile platforms in local languages, it empowers farmers to make informed decisions at minimal cost. This approach reduces risks, optimizes resources, and ensures sustainable farming, thereby improving productivity and profitability for small and marginal farmers.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="py-10 bg-gradient-to-r from-green-50 to-white rounded-lg p-6">
+      <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <div>
+          <h4 class="text-xl font-bold">Ready to improve your crop decisions?</h4>
+          <p class="text-gray-600">Start with a free advisory plan — no special hardware needed.</p>
+        </div>
+        <div class="flex gap-3">
+          <a href="#get-started" class="px-5 py-3 rounded-md bg-green-600 text-white">Get started</a>
+          <a href="#contact" class="px-5 py-3 rounded-md border">Talk to us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="mt-12 py-8 text-gray-700">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div>
+          <h5 class="font-semibold">Smart Crop Advisory</h5>
+          <p class="mt-2 text-sm">Empowering small and marginal farmers with data-driven, low-cost decisions.</p>
+        </div>
+
+        <div>
+          <h5 class="font-semibold">Contact</h5>
+          <p class="text-sm mt-2">email: smartcropadivisoryhelp@gmail.com</p>
+        
+        </div>
+
+        <div>
+          <h5 class="font-semibold">Quick links</h5>
+          <ul class="mt-2 text-sm space-y-2">
+            <li><a class="hover:underline" href="#features">Features</a></li>
+            <li><a class="hover:underline" href="#how">How it works</a></li>
+            <li><a class="hover:underline" href="#about">Abstract</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-6 text-center text-xs text-gray-500">© 2025 Smart Crop Advisory — Built for small & marginal farmers.</div>
+    </footer>
+  </main>
+</body>
+</html>
